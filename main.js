@@ -55,15 +55,23 @@ console.log(url);
 // console.log(`Fifteen is ${age}`);
 
 let name = "hanah"; //string
-let age = 10; //number
+// let age = 10; //number
 // let age = "46"; //STRING, not a #; REMEMBER strings are BLACK and #s are BLUE
 let userProfile = true; //boolean
 
-// = is to declare variables; == is auto convert diff types to each other; === is exact or for checking
-if (age > 10) {
-  console.log("older than 10");
-} else if (age === 10) {
-  console.log("is exactly 10");
-} else {
-  console.log("younger than 10");
+//functions
+
+function checkAge(age) {
+  // = is to declare variables; == is auto convert diff types to each other; === is exact or for checking
+  if (age > 10) {
+    console.log("older than 10");
+  } else if (age === 10) {
+    console.log("is exactly 10");
+  } else {
+    console.log("younger than 10");
+  }
 }
+
+checkAge(8);
+checkAge(10);
+checkAge(21);
