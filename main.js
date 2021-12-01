@@ -59,7 +59,7 @@ let name = "hanah"; //string
 // let age = "46"; //STRING, not a #; REMEMBER strings are BLACK and #s are BLUE
 let userProfile = true; //boolean
 
-//functions
+// functions
 
 function checkAge(age) {
   // = is to declare variables; == is auto convert diff types to each other; === is exact or for checking
@@ -75,3 +75,13 @@ function checkAge(age) {
 checkAge(8);
 checkAge(10);
 checkAge(21);
+
+/*
+loops: 1st statement are ran before the loop, 
+2nd terminates loop, 
+3rd is run after every i (iterator) of a loop
+*/
+
+for (let i = 1; i <= 100; i++) {
+  console.log(i);
+}
