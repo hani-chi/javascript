@@ -83,3 +83,66 @@ loops: 1st statement are ran before the loop,
 for (let i = 1; i <= 100; i++) {
   console.log(i);
 }
+
+// numbers
+
+let age = 34; // integer
+let age2 = 2.2; // decimal
+
+const add = age + age2;
+const sub = age - age2;
+const mult = age * age2;
+const div = age / age2;
+
+console.log(add);
+console.log(sub);
+console.log(mult);
+console.log(div);
+
+// +=. -=. *=, ++, --, % (module)
+
+let num = 40;
+num += 4;
+num -= 1;
+num++;
+num--;
+console.log(num);
+
+// % gets remainder for when you do division
+
+let account = 10;
+
+let rem = account % 3;
+console.log(rem);
+
+let pizza = 10;
+let children = 3;
+
+const slices = pizza % children;
+console.log("i will have " + slices + " for myself");
+
+// basic math operations
+
+const random = 4 + 6 + 10 * 10;
+console.log(random);
+
+const random2 = (4 + 6 + 10) * 10;
+console.log(random2);
+
+let num1 = 3;
+
+let num3 = num1 - "1";
+console.log(num3);
+
+// example of implicit type
+
+const randomNumber = 9;
+
+document.querySelector(".form").addEventListener("submit", function (e) {
+  e.preventDefault();
+  let value = document.getElementById("amount").value;
+  value = parseInt(value);
+  console.log("Input Value Type " + value);
+  console.log("sum of two values");
+  console.log(randomNumber + value);
+});
