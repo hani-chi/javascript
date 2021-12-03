@@ -6,12 +6,10 @@
 //   });
 // });
 
-// // helper methods
+// helper methods
 
 // alert({ name: "HiHi Hani", age: 17, email: "hanah@hanah.com", active: true });
-
 // document.write({ name: "HiHi Hani", email: "hanah@hanah.com" });
-
 // console.log({ name: "HiHi Hani", email: "hanah@hanah.com" });
 
 // Declare Variable
