@@ -148,3 +148,39 @@ document.querySelector(".form").addEventListener("submit", function (e) {
 });
 
 // data types
+
+// string
+let abby = "abby rocks";
+console.log(typeof abby);
+
+//number
+let ron = 25;
+console.log(typeof ron);
+
+//boolean
+let hanah = true;
+let alex = false;
+console.log(hanah);
+console.log(alex);
+
+//null
+let result = null;
+console.log(typeof result);
+
+//undefined
+let fname;
+console.log(typeof fname);
+
+//array
+
+const friend1 = "friend 1";
+const friend2 = "friend 2";
+const friend3 = "friend 3";
+
+let friends = ["friend 1", "friend 2", "friend 3", "zachawy uwu"];
+
+// change value
+friends[3] = "Me";
+
+let bestFriend = friends[3];
+console.log(bestFriend);
