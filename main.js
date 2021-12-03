@@ -184,3 +184,27 @@ friends[3] = "Me";
 
 let bestFriend = friends[3];
 console.log(bestFriend);
+
+//function declare and invoke
+
+function helloH() {
+  console.log("hi there hanah");
+}
+
+function helloA() {
+  console.log("hi there alex");
+}
+helloH(); // invoking
+helloA();
+
+//function parameters and arguments
+let firstN = "abby";
+
+function hi(name) {
+  // hi(name) is param
+  console.log("hi there " + name);
+}
+
+hi("imani"); //argument
+hi("manny"); // argument
+hi(firstN); // argument
