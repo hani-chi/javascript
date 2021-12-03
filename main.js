@@ -146,3 +146,5 @@ document.querySelector(".form").addEventListener("submit", function (e) {
   console.log("sum of two values");
   console.log(randomNumber + value);
 });
+
+// data types
