@@ -1,0 +1,11 @@
+body {
+  font-family: "Space Mono", monospace;
+}
+
+#clock {
+  font-size: 100px;
+  background-color: #fe5d29;
+  border-radius: 5px;
+  max-width: 490px;
+  color: #002d7e;
+}
