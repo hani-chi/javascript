@@ -99,7 +99,7 @@ console.log(sub);
 console.log(mult);
 console.log(div);
 
-// +=. -=. *=, ++, --, % (module)
+// +=. -=. *=, ++, --, %(module)
 
 let num = 40;
 num += 4;
