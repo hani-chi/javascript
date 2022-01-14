@@ -95,7 +95,16 @@ console.log(everything);
 
 // splice - mutates original array (updates it)
 // first number is where you want it to start (index)
-// second number is how many you want to include
+// second number is how many you want to delete
+// third number (+) is whatever items you want to add to the array
+
+// const names = ['joe', 'bob', 'frank']
+//names.splice(1, 2, 'robby', etc)
+
+// slice - to grab a chunk of an array (no changes)
+// first number is where you want it to start
+// second number is where you want it to end (not index based)(not inclusive)
+// names.slice(0,3)
 
 let nothing = everything.splice(2, 2);
 console.log(nothing);
