@@ -93,7 +93,7 @@ greet("imani", afternoon);
 
 // powerful array methods
 // forEach. map, filter, find, reduce
-// iterate over array - no for loop required
+// iterates over array - no for loop required
 // accepts callback function as an argument, calls cb against each item in array.
 // references item in the cb parameter
 
