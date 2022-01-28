@@ -110,12 +110,17 @@ betterItems.forEach(function (i) {
 // second.style.color = "orange";
 // console.log(second);
 
-// getAttribute
-// setAttribute
+// getAttribute - returns the value of a specified attribute on the element.
+//If the given attribute does not exist, the value returned will either be
+//null or "" (the empty string)
 
-// const first = document.querySelector(".first");
-// const classValue = first.getAttribute("class");
-// console.log(classValue);
+// setAttribute - Sets the value of an attribute on the specified element.
+//If the attribute already exists, the value is updated;
+//otherwise a new attribute is added with the specified name and value
+
+const first = document.querySelector(".first");
+const classValue = first.getAttribute("class");
+console.log(classValue);
 
 // const link = document.getElementById("link");
 
